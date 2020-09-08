@@ -1,12 +1,16 @@
 .nav-principale {
   display: flex;
   justify-content: flex-end;
-;
-}
-.nav-principale ul {
-  display: flex;
+
+  ul {
+    display: flex;
+  }
+
+ li {
+    margin: 0 var(--marge-petit);
+  }
+
+
 }
 
-.nav-principale li {
-  margin: 0 var(--marge-petit);
-}
+

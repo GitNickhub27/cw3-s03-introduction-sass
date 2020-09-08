@@ -2,20 +2,25 @@
   background: var(--couleur-primaire);
   border-bottom: 1px dimgrey solid;
 }
-.carte header {
+.carte header{
   --couleur-primaire: tomato;
   background: var(--couleur-primaire);
   padding: 60px 0;
   text-align: center;
-}
-.carte:nth-child(1) header {
-  --couleur-primaire: #E34E26;
+
+  &:nth-child(1) header {
+    --couleur-primaire: #E34E26;
+  }
+  &:nth-child(2) header {
+    --couleur-primaire: #0270BB;
+  }
+
+  &:nth-child(3) header {
+    --couleur-primaire: #F8DC3D;
+  }
+
 }
 
-.carte:nth-child(2) header {
-  --couleur-primaire: #0270BB;
-}
 
-.carte:nth-child(3) header {
-  --couleur-primaire: #F8DC3D;
-}
+
+
